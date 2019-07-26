@@ -12,7 +12,6 @@ class Application(Flask):
         self.config.from_pyfile('config/base_setting.py')
         if "ops_config" in os.environ:
             self.config.from_pyfile('config/%s_setting.py' % os.environ['ops_config'])
-
         db.init_app(self)
 
 

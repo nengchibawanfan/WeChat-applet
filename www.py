@@ -1,4 +1,7 @@
 # -*- coding: utf-8 -*-
+
+
+# 封装HTTP相关初始化
 from application import app
 
 '''

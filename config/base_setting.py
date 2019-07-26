@@ -43,7 +43,7 @@ UPLOAD = {
 }
 
 APP = {
-    'domain': 'http://192.168.0.119:8999'
+    'domain': 'http://0.0.0.0:8999'
 }
 
 PAY_STATUS_MAPPING = {
